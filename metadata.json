@@ -1,0 +1,6 @@
+{
+  "name": "ESS - Emirates Smart Services",
+  "description": "Authorized private government transaction & medical fitness center in Dubai (Amer Lic. #772, Tasheel #4108, DET #902, DHA/Salem KMFC) operated by Emirates Secretarial Services LLC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
