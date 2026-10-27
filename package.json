@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/generate-static-routes.js",
     "start": "node server.js",
     "lint": "tsc --noEmit"
   },

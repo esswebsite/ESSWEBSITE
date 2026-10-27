@@ -6,8 +6,21 @@ import fs from 'fs';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Prevent unhandled crashes from taking down Phusion Passenger into "Under Maintenance"
+process.on('uncaughtException', (err) => {
+  console.error('[ESS Server] Uncaught Exception:', err);
+});
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('[ESS Server] Unhandled Rejection at:', promise, 'reason:', reason);
+});
+
 const app = express();
+
+// GoDaddy / Phusion Passenger can provide PORT as:
+// 1. A standard TCP port number (e.g. 3000, 8080)
+// 2. A Unix domain socket string (e.g. /tmp/passenger.xxx.sock or \\.\pipe\...)
 const PORT = process.env.PORT || 3000;
+const isSocket = typeof PORT === 'string' && (PORT.includes('/') || PORT.includes('\\') || isNaN(Number(PORT)));
 
 // Resolve distribution and asset directories
 const possibleDistDirs = [
@@ -62,7 +75,7 @@ app.use(
   express.static(primaryDist, {
     maxAge: '1y',
     immutable: true,
-    index: false, // Do not auto-serve index.html for directories; handled by SPA fallback
+    index: 'index.html', // Automatically serve physical index.html for pre-generated route folders!
     setHeaders: (res, pathHeader) => {
       if (pathHeader.endsWith('.html')) {
         res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
@@ -71,25 +84,43 @@ app.use(
   })
 );
 
-// 3. SPA Fallback: Serve index.html for ALL routes (including direct page reloads and deep links)
-// Supports: /about, /departments, /pricelist, /knowledge-hub/*, /faq, /contact, /team, /ceo,
-// /department/*, /service/*, etc.
+// 3. Fallback: Check if a physical sub-route folder with index.html exists, or serve root index.html
 app.get('*', (req, res) => {
-  const indexFile = findFile('index.html');
-  if (indexFile) {
+  const cleanReqPath = req.path.replace(/^\/+/, '').replace(/\/+$/, '');
+  
+  // Try to find physical route index.html (e.g. dist/service/amer-residency-visa-new/index.html)
+  if (cleanReqPath) {
+    const routeIndex = findFile(path.join(cleanReqPath, 'index.html'));
+    if (routeIndex) {
+      res.setHeader('Content-Type', 'text/html; charset=UTF-8');
+      res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+      return res.sendFile(routeIndex);
+    }
+  }
+
+  // Fallback to primary root index.html
+  const rootIndex = findFile('index.html');
+  if (rootIndex) {
     res.setHeader('Content-Type', 'text/html; charset=UTF-8');
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
-    res.setHeader('Pragma', 'no-cache');
-    res.setHeader('Expires', '0');
-    res.sendFile(indexFile);
-  } else {
-    res.status(503).send(
-      'Production build not found. Please run "npm run build" before running "npm start".'
-    );
+    return res.sendFile(rootIndex);
   }
+
+  res.status(503).send(
+    'Production build not found. Please run "npm run build" before starting the server.'
+  );
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`ESS Server running at http://0.0.0.0:${PORT}`);
-  console.log(`Serving static files from: ${primaryDist}`);
-});
+// Start listening safely whether on Unix socket or TCP port
+if (isSocket) {
+  app.listen(PORT, () => {
+    console.log(`[ESS Server] Phusion Passenger socket listening at: ${PORT}`);
+    console.log(`[ESS Server] Serving static files from: ${primaryDist}`);
+  });
+} else {
+  const numPort = Number(PORT);
+  app.listen(numPort, '0.0.0.0', () => {
+    console.log(`[ESS Server] Running on http://0.0.0.0:${numPort}`);
+    console.log(`[ESS Server] Serving static files from: ${primaryDist}`);
+  });
+}
