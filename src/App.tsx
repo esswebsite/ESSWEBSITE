@@ -246,6 +246,19 @@ export default function App() {
   // Sync document title, meta description, keywords, OpenGraph and Twitter tags on route navigation
   useEffect(() => {
     applyRouteSeo(window.location.pathname);
+    // Push pageview event to Google Tag Manager (GTM-WC8PTH7G)
+    try {
+      const w = window as unknown as { dataLayer?: Array<Record<string, unknown>> };
+      w.dataLayer = w.dataLayer || [];
+      w.dataLayer.push({
+        event: 'page_view',
+        page_location: window.location.href,
+        page_path: window.location.pathname,
+        page_title: document.title,
+      });
+    } catch {
+      // Safe fallback
+    }
   }, [pageView]);
 
   // Handle URL navigation and browser back/forward buttons
