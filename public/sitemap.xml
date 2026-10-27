@@ -1,934 +1,823 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Home Page -->
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://ess.ae/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ess.ae/"/>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ess.ae/"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <loc>https://ess.ae/about</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Departments Directory -->
   <url>
     <loc>https://ess.ae/departments</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments"/>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://ess.ae/ar/departments</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Department Dedicated Pages -->
-  <!-- Amer -->
-  <url>
-    <loc>https://ess.ae/departments/amer</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/amer"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/amer"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/departments/amer</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/amer"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/amer"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- DET (Dubai Economy and Tourism) -->
-  <url>
-    <loc>https://ess.ae/departments/ded</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/ded"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/ded"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/departments/ded</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/ded"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/ded"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Tasheel (MOHRE) -->
-  <url>
-    <loc>https://ess.ae/departments/tasheel</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/tasheel"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/tasheel"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/departments/tasheel</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/tasheel"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/tasheel"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- ICP -->
-  <url>
-    <loc>https://ess.ae/departments/icp</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/icp"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/icp"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/departments/icp</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/icp"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/icp"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- Dubai Municipality -->
-  <url>
-    <loc>https://ess.ae/departments/dubai-municipality</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/dubai-municipality"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/dubai-municipality"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/departments/dubai-municipality</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/dubai-municipality"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/dubai-municipality"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- DHA Medical Fitness -->
-  <url>
-    <loc>https://ess.ae/departments/dha</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/dha"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/dha"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/departments/dha</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/departments/dha"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/departments/dha"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- Official Price List / Fee Calculator -->
   <url>
     <loc>https://ess.ae/pricelist</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/pricelist"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/pricelist"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/pricelist</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/pricelist"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/pricelist"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- ==================================================== -->
-  <!-- 10 DET DEDICATED SINGLE SERVICE URLS -->
-  <!-- ==================================================== -->
-  <!-- 1. det-commercial-license-new -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-commercial-license-new</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-commercial-license-new"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-commercial-license-new"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-commercial-license-new</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-commercial-license-new"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-commercial-license-new"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 2. det-instant-license -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-instant-license</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-instant-license"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-instant-license"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-instant-license</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-instant-license"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-instant-license"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 3. det-etrader-license -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-etrader-license</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-etrader-license"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-etrader-license"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-etrader-license</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-etrader-license"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-etrader-license"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 4. det-professional-license -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-professional-license</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-professional-license"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-professional-license"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-professional-license</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-professional-license"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-professional-license"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 5. det-trade-name-reservation -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-trade-name-reservation</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-trade-name-reservation"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-trade-name-reservation"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-trade-name-reservation</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-trade-name-reservation"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-trade-name-reservation"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 6. det-moa-lsa-signing -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-moa-lsa-signing</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-moa-lsa-signing"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-moa-lsa-signing"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-moa-lsa-signing</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-moa-lsa-signing"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-moa-lsa-signing"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 7. det-license-amendment-partner-activity -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-license-amendment-partner-activity</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-license-amendment-partner-activity"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-license-amendment-partner-activity"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-license-amendment-partner-activity</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-license-amendment-partner-activity"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-license-amendment-partner-activity"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 8. det-license-renewal-ejari -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-license-renewal-ejari</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-license-renewal-ejari"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-license-renewal-ejari"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-license-renewal-ejari</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-license-renewal-ejari"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-license-renewal-ejari"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 9. det-commercial-permits-mulin -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-commercial-permits-mulin</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-commercial-permits-mulin"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-commercial-permits-mulin"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-commercial-permits-mulin</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-commercial-permits-mulin"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-commercial-permits-mulin"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 10. det-license-cancellation-liquidation -->
-  <url>
-    <loc>https://ess.ae/services/ded/det-license-cancellation-liquidation</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-license-cancellation-liquidation"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-license-cancellation-liquidation"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/ded/det-license-cancellation-liquidation</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/ded/det-license-cancellation-liquidation"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/ded/det-license-cancellation-liquidation"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- ==================================================== -->
-  <!-- 10 TASHEEL DEDICATED SINGLE SERVICE URLS -->
-  <!-- ==================================================== -->
-  <!-- 1. tasheel-electronic-work-permit-new -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-electronic-work-permit-new</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-electronic-work-permit-new"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-electronic-work-permit-new"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-electronic-work-permit-new</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-electronic-work-permit-new"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-electronic-work-permit-new"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 2. tasheel-work-permit-renewal -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-work-permit-renewal</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-work-permit-renewal"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-work-permit-renewal"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-work-permit-renewal</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-work-permit-renewal"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-work-permit-renewal"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 3. tasheel-job-offer-unified-contract -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-job-offer-unified-contract</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-job-offer-unified-contract"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-job-offer-unified-contract"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-job-offer-unified-contract</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-job-offer-unified-contract"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-job-offer-unified-contract"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 4. tasheel-quota-application-amendment -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-quota-application-amendment</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-quota-application-amendment"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-quota-application-amendment"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-quota-application-amendment</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-quota-application-amendment"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-quota-application-amendment"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 5. tasheel-company-establishment-card -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-company-establishment-card</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-company-establishment-card"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-company-establishment-card"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-company-establishment-card</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-company-establishment-card"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-company-establishment-card"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 6. tasheel-esignature-card-issuance -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-esignature-card-issuance</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-esignature-card-issuance"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-esignature-card-issuance"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-esignature-card-issuance</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-esignature-card-issuance"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-esignature-card-issuance"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 7. tasheel-mission-work-permit -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-mission-work-permit</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-mission-work-permit"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-mission-work-permit"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-mission-work-permit</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-mission-work-permit"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-mission-work-permit"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 8. tasheel-part-time-work-permit -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-part-time-work-permit</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-part-time-work-permit"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-part-time-work-permit"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-part-time-work-permit</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-part-time-work-permit"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-part-time-work-permit"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 9. tasheel-family-sponsorship-work-permit -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-family-sponsorship-work-permit</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-family-sponsorship-work-permit"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-family-sponsorship-work-permit"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-family-sponsorship-work-permit</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-family-sponsorship-work-permit"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-family-sponsorship-work-permit"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 10. tasheel-labour-cancellation-absconding -->
-  <url>
-    <loc>https://ess.ae/services/tasheel/tasheel-labour-cancellation-absconding</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-labour-cancellation-absconding"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-labour-cancellation-absconding"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/services/tasheel/tasheel-labour-cancellation-absconding</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/tasheel/tasheel-labour-cancellation-absconding"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/tasheel/tasheel-labour-cancellation-absconding"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- ==================================================== -->
-  <!-- REPRESENTATIVE AMER SERVICES -->
-  <!-- ==================================================== -->
-  <url>
-    <loc>https://ess.ae/services/amer/golden-visa-10yr</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/amer/golden-visa-10yr"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/amer/golden-visa-10yr"/>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://ess.ae/ar/services/amer/golden-visa-10yr</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/services/amer/golden-visa-10yr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/services/amer/golden-visa-10yr"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- ==================================================== -->
-  <!-- KNOWLEDGE HUB & 20 OFFICIAL GOVERNMENT SERVICE GUIDES -->
-  <!-- ==================================================== -->
   <url>
     <loc>https://ess.ae/knowledge-hub</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub"/>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <loc>https://ess.ae/faq</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
-
-  <!-- 1. Emirates ID Renewal -->
+  <url>
+    <loc>https://ess.ae/contact</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/team</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/ceo</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/awards</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/clients</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/events</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/gallery</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/amer</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/ded</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/tasheel</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/icp</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/municipality</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/ohc</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/attestation</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/notary</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/typing</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/salem</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/rta</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/tawjeeh</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/tadbeer</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/department/vip-mobile</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-residency-visa-new</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-residency-visa-renewal</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/golden-visa-10yr</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-family-sponsorship-visa</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-parents-sponsorship-visa</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-tourist-visit-visa</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-job-seeker-visa</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-work-entry-permit</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-visa-status-change</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-visa-hold-unhold</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-establishment-card</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-establishment-block-removal</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-portal-mobile-update</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-fine-reduction</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-absconding-removal</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/amer-unified-file-federal-visa</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-commercial-license-new</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-instant-license</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-etrader-license</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-professional-license</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-trade-name-reservation</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-moa-lsa-signing</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-license-amendment-partner-activity</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-license-renewal-ejari</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-commercial-permits-mulin</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/det-license-cancellation-liquidation</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-electronic-work-permit-new</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-work-permit-renewal</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-job-offer-unified-contract</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-quota-application-amendment</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-company-establishment-card</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-esignature-card-issuance</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-mission-work-permit</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-part-time-work-permit</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-family-sponsorship-work-permit</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tasheel-labour-cancellation-absconding</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/icp-emirates-id-new</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/icp-emirates-id-renewal</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/icp-emirates-id-replacement</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/icp-urgent-biometric-appointment</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/icp-smart-services-data-update</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/icp-zajel-courier-delivery</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/dm-ejari-registration</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/dm-ejari-cancellation</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/dm-product-registration-montaji</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/dm-foodwatch-label-pest-control</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/dm-fitout-permits-site-plans</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/dm-signage-advertising-permits</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/ohc-food-handlers-card</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/ohc-salon-beauty-spa-card</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/ohc-construction-rta-drivers-card</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/ohc-healthcare-dha-doctor-license-card</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/atlas-mofa-attestation</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/atlas-embassy-consulate-legalization</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/atlas-apostille-global-certification</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/atlas-degree-education-equivalency</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/atlas-marriage-birth-personal-attestation</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/atlas-police-clearance-good-conduct</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/notary-power-of-attorney-poa</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/notary-corporate-moa-addendum</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/notary-legal-declarations-affidavits</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/courts-labour-civil-commercial-suits</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/notary-non-muslim-wills-probate</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/typing-moj-certified-legal-translation</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/typing-government-noc-letters-petitions</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/typing-corporate-pro-resolutions-contracts</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/typing-embassy-consulate-visa-dockets</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/salem-standard-medical-fitness-24hr</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/salem-urgent-medical-fitness-6hr</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/salem-vip-medical-fitness-2hr</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/salem-car-blood-collection-service</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/salem-domestic-vaccination-services</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/salem-home-office-screening</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/salem-blood-type-pregnancy-tests</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/rta-driving-license-renewal</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/rta-international-driving-permit-idp</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/rta-vehicle-mulkiya-renewal</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/rta-vehicle-ownership-transfer</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/rta-traffic-fine-inquiry-payment</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tawjeeh-worker-awareness-classes</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tawjeeh-eid-passport-delivery</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tawjeeh-labour-law-legal-advice</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tadbeer-domestic-worker-sponsorship</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tadbeer-center-sponsorship-package</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tadbeer-maid-visa-renewal-medical</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/tadbeer-maid-replacement-insurance</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/vip-mobile-government-van</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/vip-majlis-executive-lounge</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ess.ae/service/vip-corporate-boardroom-concierge</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://ess.ae/knowledge-hub/emirates-id-renewal-guide</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/emirates-id-renewal-guide"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/emirates-id-renewal-guide"/>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/emirates-id-renewal-guide</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/emirates-id-renewal-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/emirates-id-renewal-guide"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-residence-visa-renewal</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 2. Golden Visa Dubai -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/golden-visa-dubai-requirements-2026</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/golden-visa-dubai-requirements-2026"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/golden-visa-dubai-requirements-2026"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/golden-visa-dubai-requirements-2026</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/golden-visa-dubai-requirements-2026"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/golden-visa-dubai-requirements-2026"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-visa-status-change</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 3. Family Visa Dubai -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/family-visa-dubai-sponsorship-salary-rules</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/family-visa-dubai-sponsorship-salary-rules"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/family-visa-dubai-sponsorship-salary-rules"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/family-visa-dubai-sponsorship-salary-rules</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/family-visa-dubai-sponsorship-salary-rules"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/family-visa-dubai-sponsorship-salary-rules"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-overstay-fines-guide</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 4. DET Instant License -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/instant-license-dubai-det-setup-costs</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/instant-license-dubai-det-setup-costs"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/instant-license-dubai-det-setup-costs"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/instant-license-dubai-det-setup-costs</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/instant-license-dubai-det-setup-costs"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/instant-license-dubai-det-setup-costs"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-golden-visa-eligibility</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 5. License Amendments -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/commercial-license-amendment-partner-activity-dubai</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/commercial-license-amendment-partner-activity-dubai"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/commercial-license-amendment-partner-activity-dubai"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/commercial-license-amendment-partner-activity-dubai</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/commercial-license-amendment-partner-activity-dubai"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/commercial-license-amendment-partner-activity-dubai"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/dubai-trade-licence-guide</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 6. Ejari Registration -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/ejari-registration-online-dubai-tenancy-guide</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/ejari-registration-online-dubai-tenancy-guide"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/ejari-registration-online-dubai-tenancy-guide"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/ejari-registration-online-dubai-tenancy-guide</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/ejari-registration-online-dubai-tenancy-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/ejari-registration-online-dubai-tenancy-guide"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/dubai-instant-licence</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 7. Occupational Health Card (OHC) -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/ohc-occupational-health-card-dubai-food-handlers-salon</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/ohc-occupational-health-card-dubai-food-handlers-salon"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/ohc-occupational-health-card-dubai-food-handlers-salon"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/ohc-occupational-health-card-dubai-food-handlers-salon</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/ohc-occupational-health-card-dubai-food-handlers-salon"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/ohc-occupational-health-card-dubai-food-handlers-salon"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/dubai-trade-licence-renewal</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 8. Urgent Medical Fitness Salem -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/urgent-medical-fitness-dubai-salem-2hr-results</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/urgent-medical-fitness-dubai-salem-2hr-results"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/urgent-medical-fitness-dubai-salem-2hr-results"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/urgent-medical-fitness-dubai-salem-2hr-results</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/urgent-medical-fitness-dubai-salem-2hr-results"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/urgent-medical-fitness-dubai-salem-2hr-results"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-work-permit-guide</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 9. UAE Work Permits Tasheel -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/uae-work-permit-types-costs-tasheel-guide</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/uae-work-permit-types-costs-tasheel-guide"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/uae-work-permit-types-costs-tasheel-guide"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/uae-work-permit-types-costs-tasheel-guide</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/uae-work-permit-types-costs-tasheel-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/uae-work-permit-types-costs-tasheel-guide"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-employment-contract-changes</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 10. Visa Fine Reduction -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/dubai-visa-fine-reduction-status-change-grace-periods</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/dubai-visa-fine-reduction-status-change-grace-periods"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/dubai-visa-fine-reduction-status-change-grace-periods"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/dubai-visa-fine-reduction-status-change-grace-periods</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/dubai-visa-fine-reduction-status-change-grace-periods"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/dubai-visa-fine-reduction-status-change-grace-periods"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-wage-protection-system</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 11. Corporate Tax Registration -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/corporate-tax-registration-dubai-sme-compliance</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/corporate-tax-registration-dubai-sme-compliance"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/corporate-tax-registration-dubai-sme-compliance"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/corporate-tax-registration-dubai-sme-compliance</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/corporate-tax-registration-dubai-sme-compliance"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/corporate-tax-registration-dubai-sme-compliance"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/dubai-ejari-registration-guide</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 12. MoFA Attestation -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/mofa-attestation-dubai-degree-marriage-commercial</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/mofa-attestation-dubai-degree-marriage-commercial"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/mofa-attestation-dubai-degree-marriage-commercial"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/mofa-attestation-dubai-degree-marriage-commercial</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/mofa-attestation-dubai-degree-marriage-commercial"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/mofa-attestation-dubai-degree-marriage-commercial"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/ejari-digital-services</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 13. MoJ Legal Translation -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/moj-legal-translation-court-ready-documents-dubai</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/moj-legal-translation-court-ready-documents-dubai"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/moj-legal-translation-court-ready-documents-dubai"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/moj-legal-translation-court-ready-documents-dubai</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/moj-legal-translation-court-ready-documents-dubai"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/moj-legal-translation-court-ready-documents-dubai"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-residency-medical-fitness</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 14. Tawjeeh Awareness Classes -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/tawjeeh-classes-worker-rights-dubai-labour-law</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/tawjeeh-classes-worker-rights-dubai-labour-law"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/tawjeeh-classes-worker-rights-dubai-labour-law"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/tawjeeh-classes-worker-rights-dubai-labour-law</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/tawjeeh-classes-worker-rights-dubai-labour-law"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/tawjeeh-classes-worker-rights-dubai-labour-law"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/dubai-occupational-health-card</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 15. Tadbeer Maid Visas -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/maid-visa-dubai-tadbeer-domestic-worker-sponsorship</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/maid-visa-dubai-tadbeer-domestic-worker-sponsorship"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/maid-visa-dubai-tadbeer-domestic-worker-sponsorship"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/maid-visa-dubai-tadbeer-domestic-worker-sponsorship</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/maid-visa-dubai-tadbeer-domestic-worker-sponsorship"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/maid-visa-dubai-tadbeer-domestic-worker-sponsorship"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-document-attestation-guide</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 16. Green Visa Freelancers & Skilled -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/green-visa-freelancer-skilled-employee-dubai-2026</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/green-visa-freelancer-skilled-employee-dubai-2026"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/green-visa-freelancer-skilled-employee-dubai-2026"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/green-visa-freelancer-skilled-employee-dubai-2026</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/green-visa-freelancer-skilled-employee-dubai-2026"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/green-visa-freelancer-skilled-employee-dubai-2026"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/mofa-digital-attestation</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 17. Trade License Cancellation -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/closing-company-dubai-trade-license-cancellation-liquidation</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/closing-company-dubai-trade-license-cancellation-liquidation"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/closing-company-dubai-trade-license-cancellation-liquidation"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/closing-company-dubai-trade-license-cancellation-liquidation</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/closing-company-dubai-trade-license-cancellation-liquidation"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/closing-company-dubai-trade-license-cancellation-liquidation"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-legal-translation-guide</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 18. Dubai Customs Client Code -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/dubai-customs-client-code-registration-import-export</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/dubai-customs-client-code-registration-import-export"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/dubai-customs-client-code-registration-import-export"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/dubai-customs-client-code-registration-import-export</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/dubai-customs-client-code-registration-import-export"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/dubai-customs-client-code-registration-import-export"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/uae-corporate-tax-compliance</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 19. Residence Visa Cancellation Grace Periods -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/residence-visa-cancellation-grace-period-rules-dubai</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/residence-visa-cancellation-grace-period-rules-dubai"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/residence-visa-cancellation-grace-period-rules-dubai"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ess.ae/ar/knowledge-hub/residence-visa-cancellation-grace-period-rules-dubai</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/residence-visa-cancellation-grace-period-rules-dubai"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/residence-visa-cancellation-grace-period-rules-dubai"/>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://ess.ae/knowledge-hub/dubai-sme-business-support</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- 20. Power of Attorney Notary Public -->
-  <url>
-    <loc>https://ess.ae/knowledge-hub/power-of-attorney-notary-public-dubai-courts-remote</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/power-of-attorney-notary-public-dubai-courts-remote"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/power-of-attorney-notary-public-dubai-courts-remote"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ess.ae/ar/knowledge-hub/power-of-attorney-notary-public-dubai-courts-remote</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ess.ae/ar/knowledge-hub/power-of-attorney-notary-public-dubai-courts-remote"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ess.ae/knowledge-hub/power-of-attorney-notary-public-dubai-courts-remote"/>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>

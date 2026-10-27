@@ -526,6 +526,8 @@ export default function App() {
             onNavigateToHome={navigateToHome}
             onNavigateToContact={navigateToContact}
             onOpenBooking={() => handleOpenBooking()}
+            onNavigateToDepartment={navigateToDepartment}
+            onNavigateToService={navigateToService}
           />
         )}
 
