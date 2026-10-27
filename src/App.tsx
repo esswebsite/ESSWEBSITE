@@ -30,6 +30,7 @@ import { ClientsPage } from './components/ClientsPage';
 import { EventsPage } from './components/EventsPage';
 import { PriceListPage } from './components/PriceListPage';
 import { SERVICES } from './data/departmentsData';
+import { applyRouteSeo } from './utils/routeSeo';
 
 const LEGACY_SERVICE_MAP: Record<string, string> = {
   'amer-residency-new-renewal-golden': 'amer-residency-visa-new',
@@ -241,6 +242,11 @@ export default function App() {
     document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
     document.documentElement.lang = language;
   }, [language]);
+
+  // Sync document title, meta description, keywords, OpenGraph and Twitter tags on route navigation
+  useEffect(() => {
+    applyRouteSeo(window.location.pathname);
+  }, [pageView]);
 
   // Handle URL navigation and browser back/forward buttons
   useEffect(() => {
