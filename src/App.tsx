@@ -72,7 +72,35 @@ const LEGACY_SERVICE_MAP: Record<string, string> = {
 };
 
 const parseRoute = (): PageView => {
-  // First, check if legacy hash exists (e.g. #service/foo or #about) and rewrite to clean path
+  // Check if 404 fallback stored a redirect path in sessionStorage or in ?p= query param
+  let redirectTarget: string | null = null;
+  try {
+    const stored = sessionStorage.getItem('ess_redirect_path');
+    if (stored) {
+      sessionStorage.removeItem('ess_redirect_path');
+      redirectTarget = stored;
+    }
+  } catch (e) {
+    // sessionStorage might be restricted in some iframe contexts
+  }
+
+  if (!redirectTarget && window.location.search) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const p = urlParams.get('p');
+    if (p) {
+      redirectTarget = p;
+    } else if (window.location.search.startsWith('?/')) {
+      redirectTarget = window.location.search.substring(1);
+    }
+  }
+
+  if (redirectTarget) {
+    // Restore the clean target path in the browser address bar without reloading
+    const cleanTarget = redirectTarget.startsWith('/') ? redirectTarget : '/' + redirectTarget;
+    window.history.replaceState(null, '', cleanTarget);
+  }
+
+  // Check if legacy hash exists (e.g. #service/foo or #about) and rewrite to clean path
   const hash = window.location.hash;
   if (hash && hash !== '#') {
     const clean = hash.replace(/^#\/?/, '').trim();
@@ -119,8 +147,17 @@ const parseRoute = (): PageView => {
     }
   }
 
-  // Parse clean pathname
+  // Normalize /index.html in URL bar to clean /
+  if (window.location.pathname === '/index.html') {
+    window.history.replaceState(null, '', '/');
+  }
+
+  // Parse clean pathname with URI decoding and trailing slash removal
   let pathname = window.location.pathname;
+  try {
+    pathname = decodeURIComponent(pathname);
+  } catch (e) {}
+
   if (pathname.startsWith('/ar/')) {
     pathname = pathname.replace(/^\/ar/, '');
   } else if (pathname === '/ar') {
@@ -128,7 +165,7 @@ const parseRoute = (): PageView => {
   }
 
   const path = pathname.replace(/\/+$/, '') || '/';
-  if (path === '/' || path === '/home') return { type: 'home' };
+  if (path === '/' || path === '/home' || path === '/index.html') return { type: 'home' };
   if (path === '/about') return { type: 'about' };
   if (path === '/departments' || path === '/services' || path === '/departments-services') {
     return { type: 'departments' };
