@@ -159,7 +159,7 @@ export const SingleServicePage: React.FC<SingleServicePageProps> = ({
             latitude: OFFICIAL_MAPS.coordinates.latitude,
             longitude: OFFICIAL_MAPS.coordinates.longitude,
           },
-          openingHoursSpecification: getOpeningHoursForDept(currentDepartment?.id),
+          openingHoursSpecification: getOpeningHoursForDept(currentDept?.id),
         },
         {
           '@type': 'Service',
