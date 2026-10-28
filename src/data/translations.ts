@@ -156,7 +156,7 @@ export const TRANSLATIONS = {
     footerAddress: 'Al Karama, Next to Karama Post Office, Dubai, UAE',
     footerPhone: '+971 4 342 6666',
     footerEmail: 'info@ess.ae',
-    footerHours: 'Monday – Thursday: 7:30 AM – 8:00 PM | Friday: 7:30 AM – 12:00 PM & 2:30 PM – 8:00 PM | Saturday: 8:00 AM – 5:00 PM',
+    footerHours: 'KMFC Medical: Daily 7:00 AM – 9:30 PM | Amer & Golden Visa: Mon–Sat 7:00 AM – 10:00 PM | Tasheel & DED: 8:00 AM – 10:00 PM (DED Sun 8AM–8PM) | Atlas Attestation: Mon–Fri 9:00 AM – 10:00 PM, Sat 9:00 AM – 4:00 PM',
     footerCopyright: '© 2026 Emirates Secretarial Services & Karama Business Center. All rights reserved. ess.ae · info@ess.ae'
   },
   ar: {
@@ -316,7 +316,7 @@ export const TRANSLATIONS = {
     footerAddress: 'منطقة الكرامة، بجوار مكتب بريد الكرامة، دبي، الإمارات العربية المتحدة',
     footerPhone: '+971 4 342 6666',
     footerEmail: 'info@ess.ae',
-    footerHours: 'الإثنين إلى الخميس: 7:30 ص – 8:00 م | الجمعة: 7:30 ص – 12:00 م & 2:30 م – 8:00 م | السبت: 8:00 ص – 5:00 م',
+    footerHours: 'فحص سالم الطبي (KMFC): يومياً 7:00 ص – 9:30 م | آمر والإقامة الذهبية: 7:00 ص – 10:00 م (السبت 8:00 م) | تسهيل واقتصادية دبي: 8:00 ص – 10:00 م (الأحد 8 ص–8 م) | أطلس: 9:00 ص – 10:00 م (السبت 4 م)',
     footerCopyright: '© 2026 الإمارات لخدمات رجال الأعمال ومركز الكرامة للأعمال (KBC). جميع الحقوق محفوظة. ess.ae · info@ess.ae'
   }
 };

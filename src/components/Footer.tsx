@@ -242,62 +242,6 @@ export const Footer: React.FC<FooterProps> = ({
           </div>
         </div>
 
-        {/* SEO Sitemap & Department Quick Links */}
-        <div className="mt-12 pt-8 border-t border-slate-800/80">
-          <div className="text-[11px] font-bold uppercase tracking-wider text-teal-400 mb-3">
-            {isAr ? 'خريطة الموقع السريعة للدوائر والخدمات الحكومية المعتمدة' : 'Official Government Departments & Services Sitemap'}
-          </div>
-          <div className="flex flex-wrap gap-x-4 gap-y-2 text-[11px] text-slate-400">
-            <button onClick={() => onNavigateToDepartment?.('amer')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'خدمات آمر إقامة دبي (GDRFA)' : 'Amer GDRFA Residency Dubai'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToDepartment?.('ded')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'اقتصادية دبي وتأسيس الشركات (DET/DED)' : 'DET / DED Business Setup & Licenses'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToDepartment?.('tasheel')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'تسهيل ووزارة الموارد البشرية (MoHRE)' : 'Tasheel MoHRE Work Permits & Contracts'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToDepartment?.('icp')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'الهوية الإماراتية والبصمة (ICP)' : 'ICP Emirates ID & Biometric Services'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToDepartment?.('municipality')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'بلدية دبي وتوثيق إيجاري (أراضي دبي)' : 'Dubai Municipality & DLD Ejari'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToDepartment?.('dha')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'مركز الكرامة الطبي وفحص الإقامة (KMFC)' : 'Karama Medical Center (KMFC / DHA)'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToService?.('golden-visa-10yr')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'الإقامة الذهبية 10 سنوات' : '10-Year UAE Golden Visa'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToService?.('det-instant-license')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'الرخصة الفورية بدبي' : 'DET Instant License Dubai'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToService?.('tasheel-electronic-work-permit-new')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'تصريح عمل جديد تسهيل' : 'New MoHRE Electronic Work Permit'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToService?.('icp-emirates-id-renewal')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'تجديد الهوية الإماراتية' : 'Emirates ID Renewal Dubai'}
-            </button>
-            <span>·</span>
-            <button onClick={() => onNavigateToService?.('dm-ejari-registration')} className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'توثيق عقد إيجاري (أراضي دبي)' : 'Official DLD Ejari Registration'}
-            </button>
-            <span>·</span>
-            <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 transition-colors cursor-pointer">
-              {isAr ? 'خريطة الموقع (Sitemap XML)' : 'Sitemap (XML)'}
-            </a>
-          </div>
-        </div>
-
         {/* Bottom Legal Notice */}
         <div className="mt-8 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-400 text-[11px]">
           <p>{t.footerCopyright}</p>
@@ -317,12 +261,6 @@ export const Footer: React.FC<FooterProps> = ({
             <span>JCI Accredited DHA Center</span>
             <span aria-hidden="true">·</span>
             <span>ISO 9001:2015 Certified</span>
-            <span aria-hidden="true">·</span>
-            <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300">
-              sitemap.xml
-            </a>
-            <span aria-hidden="true">·</span>
-            <span className="text-[#14B8A6] font-bold">ess.ae</span>
           </div>
         </div>
       </div>

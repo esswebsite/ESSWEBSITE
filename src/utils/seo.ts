@@ -2,6 +2,7 @@ import { Language, PageView, ServiceItem, Department } from '../types';
 import { CANONICAL_BASE, getAlternateUrls, buildPath } from './router';
 
 import { OFFICIAL_MAPS, OFFICIAL_SAME_AS } from '../data/socialAndMapLinks';
+import { getOpeningHoursForDept } from '../data/centerTimings';
 
 export const VERIFIED_GOOGLE_PROFILE_URL = OFFICIAL_MAPS.shareUrl;
 
@@ -52,21 +53,15 @@ export function getLocalBusinessSchema() {
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
-        opens: '07:30',
-        closes: '20:00',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+        opens: '07:00',
+        closes: '22:00',
       },
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Friday'],
-        opens: '07:30',
-        closes: '20:00',
-      },
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Saturday'],
-        opens: '08:00',
-        closes: '17:00',
+        dayOfWeek: ['Sunday'],
+        opens: '07:00',
+        closes: '21:30',
       },
     ],
   };

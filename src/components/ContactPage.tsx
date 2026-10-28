@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { Language } from '../types';
 import { OFFICIAL_MAPS, OFFICIAL_SOCIAL_LINKS, OFFICIAL_CONTACT } from '../data/socialAndMapLinks';
+import { CENTER_TIMINGS } from '../data/centerTimings';
 import { SocialLinks } from './SocialLinks';
 
 interface ContactPageProps {
@@ -36,6 +37,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
   const isAr = language === 'ar';
   const ArrowIcon = isAr ? ChevronLeft : ChevronRight;
 
+  const [selectedCenterId, setSelectedCenterId] = useState<string>('kmfc');
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -157,7 +159,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
               </div>
             </div>
 
-            {/* Operating Hours Card */}
+            {/* Official Operating Hours Card for All 6 Centers */}
             <div className="bg-white rounded-xl border border-slate-200 p-6 shadow-xs space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg bg-teal-50 text-[#128B94] flex items-center justify-center shrink-0">
@@ -165,32 +167,107 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 </div>
                 <div>
                   <h3 className="text-base font-bold text-slate-900">
-                    {isAr ? 'ساعات العمل الرسمية' : 'Official Operating Hours'}
+                    {isAr ? 'مواعيد وساعات العمل الرسمية' : 'Official Operating Hours'}
                   </h3>
                   <p className="text-xs text-slate-500">
-                    {isAr ? 'متوافق مع دوام الدوائر الحكومية والأنظمة الإلكترونية' : 'Aligned with UAE government ministries'}
+                    {isAr
+                      ? 'مواعيد العمل الموثقة لجميع المراكز والدوائر الستة بالكرامة'
+                      : 'Verified official Google Business hours for all 6 co-located centers'}
                   </p>
                 </div>
               </div>
 
-              <div className="space-y-2.5 text-xs text-slate-700 pl-13 rtl:pl-0 rtl:pr-13">
-                <div className="flex items-center justify-between py-1 border-b border-slate-100">
-                  <span className="font-medium">{isAr ? 'الإثنين – الخميس:' : 'Monday – Thursday:'}</span>
-                  <span className="font-bold text-slate-900" dir="ltr">7:30 AM – 8:00 PM</span>
+              {/* Center Selector Tabs */}
+              <div className="pt-2">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-1.5 p-1 bg-slate-100 rounded-lg text-[11px] font-semibold">
+                  {CENTER_TIMINGS.map((center) => (
+                    <button
+                      key={center.id}
+                      onClick={() => setSelectedCenterId(center.id)}
+                      className={`px-2.5 py-1.5 rounded-md transition-all text-center truncate cursor-pointer ${
+                        selectedCenterId === center.id
+                          ? 'bg-white text-[#01403F] font-bold shadow-xs border border-teal-600/20'
+                          : 'text-slate-600 hover:text-slate-900'
+                      }`}
+                      title={isAr ? center.nameAr : center.nameEn}
+                    >
+                      {center.shortName}
+                    </button>
+                  ))}
                 </div>
-                <div className="flex items-center justify-between py-1 border-b border-slate-100">
-                  <span className="font-medium">{isAr ? 'الجمعة (مع استراحة الصلاة):' : 'Friday (Prayer Break):'}</span>
-                  <span className="font-bold text-slate-900" dir="ltr">7:30 AM – 12:00 PM & 2:30 PM – 8:00 PM</span>
-                </div>
-                <div className="flex items-center justify-between py-1 border-b border-slate-100">
-                  <span className="font-medium">{isAr ? 'السبت:' : 'Saturday:'}</span>
-                  <span className="font-bold text-slate-900" dir="ltr">8:00 AM – 5:00 PM</span>
-                </div>
-                <div className="flex items-center justify-between py-1">
-                  <span className="font-medium">{isAr ? 'الأحد:' : 'Sunday:'}</span>
-                  <span className="font-bold text-[#128B94]">
-                    {isAr ? 'مغلق (طوارئ الحافلة المتنقلة متاحة)' : 'Closed (Mobile VIP on-call)'}
-                  </span>
+              </div>
+
+              {/* Active Selected Center Schedule Display */}
+              {(() => {
+                const activeCenter =
+                  CENTER_TIMINGS.find((c) => c.id === selectedCenterId) || CENTER_TIMINGS[0];
+                return (
+                  <div className="bg-slate-50/80 rounded-xl p-4 border border-slate-200 space-y-3">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 border-b border-slate-200 pb-2">
+                      <div className="font-bold text-slate-900 text-xs sm:text-sm">
+                        {isAr ? activeCenter.nameAr : activeCenter.nameEn}
+                      </div>
+                      <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-extrabold bg-teal-100/80 text-[#01403F] w-fit">
+                        {isAr ? activeCenter.summaryBadgeAr : activeCenter.summaryBadgeEn}
+                      </span>
+                    </div>
+
+                    <p className="text-[11px] text-slate-500 italic">
+                      {isAr ? activeCenter.highlightAr : activeCenter.highlightEn}
+                    </p>
+
+                    <div className="space-y-1.5 text-xs text-slate-700 pt-1">
+                      {activeCenter.schedule.map((slot, idx) => (
+                        <div
+                          key={idx}
+                          className="flex items-center justify-between py-1 border-b border-slate-200/60 last:border-0 text-xs"
+                        >
+                          <span className="font-medium text-slate-600">
+                            {isAr ? slot.dayAr : slot.dayEn}:
+                          </span>
+                          <div className="flex items-center gap-2">
+                            <span
+                              className={`font-mono font-bold text-xs ${
+                                slot.isOpen ? 'text-slate-900' : 'text-rose-600'
+                              }`}
+                              dir="ltr"
+                            >
+                              {isAr ? slot.hoursAr : slot.hoursEn}
+                            </span>
+                            <span
+                              className={`w-2 h-2 rounded-full ${
+                                slot.isOpen ? 'bg-emerald-500' : 'bg-slate-300'
+                              }`}
+                              title={slot.isOpen ? 'Open' : 'Closed'}
+                            />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
+
+              {/* Quick Summary of All 6 Centers */}
+              <div className="pt-2 border-t border-slate-100">
+                <span className="text-[11px] font-bold text-slate-600 uppercase tracking-wider block mb-2">
+                  {isAr ? 'نظرة سريعة على كافة المراكز:' : 'All 6 Centers Overview:'}
+                </span>
+                <div className="space-y-2 text-[11px]">
+                  {CENTER_TIMINGS.map((center) => (
+                    <div
+                      key={center.id}
+                      onClick={() => setSelectedCenterId(center.id)}
+                      className="p-2 rounded-lg bg-slate-50 hover:bg-teal-50/60 border border-slate-100 hover:border-teal-200 transition-colors cursor-pointer flex items-center justify-between gap-2"
+                    >
+                      <span className="font-semibold text-slate-800 text-[11px]">
+                        {center.shortName}
+                      </span>
+                      <span className="font-mono text-[10px] text-teal-800 font-bold text-right" dir="ltr">
+                        {center.summaryBadgeEn}
+                      </span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

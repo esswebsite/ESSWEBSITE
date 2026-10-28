@@ -29,6 +29,7 @@ import { TRANSLATIONS } from '../data/translations';
 import { getServiceDetails } from '../data/departmentExtendedData';
 import { DepartmentLogo } from './DepartmentLogo';
 import { OFFICIAL_MAPS, OFFICIAL_SAME_AS } from '../data/socialAndMapLinks';
+import { getOpeningHoursForDept } from '../data/centerTimings';
 
 interface SingleServicePageProps {
   serviceId: string;
@@ -158,20 +159,7 @@ export const SingleServicePage: React.FC<SingleServicePageProps> = ({
             latitude: OFFICIAL_MAPS.coordinates.latitude,
             longitude: OFFICIAL_MAPS.coordinates.longitude,
           },
-          openingHoursSpecification: [
-            {
-              '@type': 'OpeningHoursSpecification',
-              dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
-              opens: '07:30',
-              closes: '20:00',
-            },
-            {
-              '@type': 'OpeningHoursSpecification',
-              dayOfWeek: ['Friday', 'Saturday'],
-              opens: '08:00',
-              closes: '14:00',
-            },
-          ],
+          openingHoursSpecification: getOpeningHoursForDept(currentDepartment?.id),
         },
         {
           '@type': 'Service',
